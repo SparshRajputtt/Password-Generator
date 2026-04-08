@@ -1,16 +1,46 @@
-# React + Vite
+🔐 Password Generator (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive password generator built using React and Tailwind CSS. This app allows users to generate strong, secure passwords based on customizable preferences like length, numbers, and special characters.
 
-Currently, two official plugins are available:
+🚀 Features
+Generate random secure passwords
+Adjustable password length (6–100)
+Option to include:
+Numbers 🔢
+Special characters 🔐
+Copy password to clipboard 📋
+Responsive and clean UI (Tailwind CSS)
+🛠️ Tech Stack
+React (Hooks: useState, useEffect, useCallback, useRef)
+Tailwind CSS
+JavaScript (ES6+)
+⚙️ How It Works
+Users select password length using a slider
+Toggle options for numbers and special characters
+Password is auto-generated based on selected options
+Click "Copy" to copy the password instantly
+📦 Installation & Setup
+# Clone the repository
+git clone https://github.com/your-username/password-generator.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Navigate into the project
+cd password-generator
 
-## React Compiler
+# Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Start development server
+npm run dev
+📸 Preview
 
-## Expanding the ESLint configuration
+(Add screenshot here later)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Future Improvements
+Add password strength indicator
+Save password history
+Add dark/light theme toggle
+Export passwords
+👨‍💻 Author
+
+Sparsh
+(You can add your LinkedIn/GitHub link here)
